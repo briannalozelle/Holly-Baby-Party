@@ -4,7 +4,7 @@
   padding: var(--button-padding);
   font-weight: var(--button-font-weight);
   font-size: var(--font-small);
-  border-radius: var(--button-border-radius);
+  //border-radius: var(--button-border-radius);
   text-decoration: none !important;
   max-width: 100%;
   cursor: pointer;
@@ -52,7 +52,7 @@
   background-color: var(--button-secondary-surface);
   border: var(--button-secondary-border);
   color: var(--button-secondary-color);
-
+  margin-top: 20px;
   &:visited {
     color: var(--button-secondary-color);
   }
