@@ -53,9 +53,10 @@
   --white-1000: #FFF;
 
   // System
-  --system-green-500: #00B38F;
   --system-yellow-500: #FFE75D;
   --system-red-500: #DB6666;
+  --colour-primary:rgb(182, 146, 123);
+  --colour-secondary: #49652d;
 }
 
 /* Typography
@@ -64,15 +65,15 @@
   --text-primary: var(--grey-200);
   --text-secondary: var(--grey-500);
 
-  --text-link-primary: var(--system-green-500);
-  --text-link-visited: var(--system-green-500);
+  --text-link-primary: var(--colour-secondary);
+  --text-link-visited: var(--grey-200);
   --text-link-hover: var(--system-yellow-500);
 
   --text-invert-primary: var(--white-1000);
   --text-invert-secondary: var(--grey-800);
   --text-invert-hover: var(--system-red-500);
 
-  --text-accent: var(--system-green-500);
+  --text-accent: var(--colour-secondary);
 
   // Vertical Spacing
   --vertical-type-spacing-size-xs: 1;
@@ -107,18 +108,18 @@
 // Surface variables essentially work out to be background colours for things like CTA's, Tiles, etc
 :root {
   --surface-primary: var(--white-1000);
-  --surface-invert: var(--system-green-500);
-  --surface-hover: var(--system-green-500);
+  --surface-invert: var(--colour-secondary);
+  --surface-hover: var(--colour-secondary);
 
   --surface-secondary: var(--grey-900);
 
   --surface-navigation-primary: var(--grey-900);
   --surface-navigation-secondary: var(--grey-900);
 
-  --surface-link-primary: var(--system-green-500);
-  --surface-link-hover: var(--system-green-500);
+  --surface-link-primary: var(--colour-secondary);
+  --surface-link-hover: var(--colour-secondary);
   --surface-link-invert: var(--white-1000);
-  --surface-link-invert-hover: var(--system-green-500);
+  --surface-link-invert-hover: var(--colour-secondary);
   --surface-disabled: var(--grey-500);
 
   --surface-alert: var(--system-yellow-500);
@@ -143,8 +144,8 @@
   --border-color-primary: var(--grey-500);
   --border-color-secondary: var(--grey-800);
   --border-color-hover: var(--grey-200);
-  --border-color-accent: var(--system-green-500);
-  --border-color-inverse-accent: var(--system-green-500);
+  --border-color-accent: var(--colour-secondary);
+  --border-color-inverse-accent: var(--colour-secondary);
   --border-color-emergency: var(--system-error-500);
 
   // Radius

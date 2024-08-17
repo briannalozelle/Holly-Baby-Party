@@ -1,6 +1,14 @@
 .site__header {
-  display: flex;
-  justify-content: space-between;
+  position: fixed;
+  width: 100vw;
+  height: 59px;
   gap: var(--padding-100) var(--padding-300);
   padding: var(--padding-200) var(--page-margin-100);
+  background-color: var(--colour-primary);
+  
+}
+
+.header-text{
+  display: flex;
+  justify-content: space-between;
 }

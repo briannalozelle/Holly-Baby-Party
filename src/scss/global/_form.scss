@@ -1,6 +1,7 @@
 label {
-  display: block;
+  display: flex;
   font-weight: 600;
+
 
   +* {
     margin-top: var(--padding-100)
@@ -53,4 +54,9 @@ input[type="checkbox"] {
   &.form-item--check+.form-item--check {
     margin-top: var(--padding-200);
   }
+}
+
+.form-item-name{
+  display: flex;
+  justify-content: space-between;
 }
