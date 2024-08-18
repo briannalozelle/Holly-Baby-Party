@@ -64,7 +64,10 @@
 :root {
   --text-primary: var(--grey-200);
   --text-secondary: var(--grey-500);
-
+ 
+  --text-font-title: 'Lora', serif;
+  --text-font-body: 'Source Sans 3', Arial, sans-serif;
+  
   --text-link-primary: var(--colour-secondary);
   --text-link-visited: var(--grey-200);
   --text-link-hover: var(--system-yellow-500);
@@ -101,6 +104,8 @@
     --vertical-type-spacing-size-med: 3;
     --vertical-type-spacing-size-lrg: 3;
   }
+
+
 }
 
 /* Surface
@@ -288,7 +293,7 @@
   --button-secondary-surface: var(--surface-link-primary);
   --button-secondary-border: var(--border-thickness-200) solid var(--surface-link-primary);
   --button-secondary-color: var(--white-1000);
-  --button-secondary-surface-hover: transparent;
+  --button-secondary-surface-hover: rgb(78, 121, 45);
   --button-secondary-border-hover: var(--border-thickness-200) solid var(--surface-link-primary);
   --button-secondary-color-hover: var(--surface-link-primary);
 }

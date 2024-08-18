@@ -1,10 +1,10 @@
 @mixin btn-defaults {
   display: inline-block;
   gap: var(--padding-100);
-  padding: var(--button-padding);
-  font-weight: var(--button-font-weight);
-  font-size: var(--font-small);
-  //border-radius: var(--button-border-radius);
+  padding: 0px 10% 0px 10%;
+  font-size: var(--heading-2);
+  font-family: var(--text-font-title);
+  font-style: italic;
   text-decoration: none !important;
   max-width: 100%;
   cursor: pointer;
@@ -30,28 +30,11 @@
   }
 }
 
-@mixin btn-primary {
-  @include btn-defaults;
-  background-color: var(--text-primary);
-  color: var(--text-invert-primary);
-  border: var(--button-primary-border);
-
-  &:visited {
-    color: var(--text-invert-primary);
-  }
-
-  &:hover,
-  &:focus {
-    color: var(--button-primary-color-hover);
-    background-color: var(--button-primary-surface-hover);
-  }
-}
-
 @mixin btn-secondary {
   @include btn-defaults;
   background-color: var(--button-secondary-surface);
   border: var(--button-secondary-border);
-  color: var(--button-secondary-color);
+  color: var(--text-link-visited);
   margin-top: 20px;
   &:visited {
     color: var(--button-secondary-color);
@@ -61,13 +44,9 @@
   &:focus {
     background-color: var(--button-secondary-surface-hover);
     border: var(--button-secondary-border-hover);
-    color: var(--button-secondary-color-hover);
   }
 }
 
-.btn-primary {
-  @include btn-primary;
-}
 
 .btn-secondary {
   @include btn-secondary;
