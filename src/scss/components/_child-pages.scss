@@ -45,12 +45,12 @@
 
   .rsvp-button {
     margin-top: 1.25%;
-      font-family: 'Courier New', Courier, monospace, 'Arial Narrow', Arial, sans-serif; 
-      padding: 0px 5% 0px 5%;
-      background-color: var(--colour-secondary);
-      transition: 0.15s ease-in;
-      &:hover,
-      &:focus {
+    padding: 0px 5% 0px 5%;
+    background-color: var(--colour-secondary);
+    transition: 0.15s ease-in;
+
+    &:hover,
+    &:focus {
         background-color: var(--button-secondary-surface-hover);
     }
   }
@@ -61,7 +61,9 @@
     align-items: center;
     justify-content: center;
   }
- 
+
+
+
   li {
     flex: 0 1 calc(33% - 2.2rem);
     margin: 0;
@@ -77,5 +79,28 @@
     li {
       flex: 0 1 100%;
     }
+  }
+}
+
+.link-container{
+  padding-top: 6vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.registry-link {
+  padding-bottom: 2vh;
+  color: var(--colour-tertiary);
+  font-size: var(--heading-3);
+  font-family: var(--text-font-title);
+  font-style: italic;
+  text-decoration: none !important;
+
+  &:visited {
+    color: var(--colour-quaternary);
+  }
+
+  &:hover {
+    color: var(--colour-secondary);
   }
 }

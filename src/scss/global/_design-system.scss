@@ -53,12 +53,10 @@
   --white-1000: #FFF;
 
   // System
-  --system-yellow-500: #FFE75D;
-  --system-red-500: #DB6666;
-  //--colour-primary:rgb(182, 146, 123);
   --colour-primary:#FEFAE0; 
   --colour-secondary:#A9B388;
-  //--colour-secondary: #49652d;
+  --colour-tertiary: #5F6F52;
+  --colour-quaternary: #B99470;
 }
 
 /* Typography
@@ -295,7 +293,7 @@
   --button-secondary-surface: var(--surface-link-primary);
   --button-secondary-border: var(--border-thickness-200) solid var(--surface-link-primary);
   --button-secondary-color: var(--white-1000);
-  --button-secondary-surface-hover: rgb(78, 121, 45);
+  --button-secondary-surface-hover: var(--colour-tertiary) ;
   --button-secondary-border-hover: var(--border-thickness-200) solid var(--surface-link-primary);
   --button-secondary-color-hover: var(--surface-link-primary);
 }
