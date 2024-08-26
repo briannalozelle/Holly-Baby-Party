@@ -1,5 +1,5 @@
 @mixin btn-defaults {
-  margin-bottom: 20px;
+  
   display: inline-block;
   gap: var(--padding-100);
   padding: 2px 8% 6px 8%;
@@ -11,7 +11,7 @@
   cursor: pointer;
   transition: 0.15s ease-in;
 
-  // prevents zoomnig on mobile if double tapped
+  // prevents zoomning on mobile if double tapped
   touch-action: manipulation;
 
   // prevents accidentally highlighting text
@@ -37,6 +37,7 @@
   border: var(--button-secondary-border);
   color: var(--text-link-visited);
   margin-top: 20px;
+  margin-bottom: 20px;
   &:visited {
     color: var(--button-secondary-color);
   }
