@@ -1,5 +1,5 @@
 .component--media {
-  padding: 0 var(--page-margin-500);
+  //padding: 0 var(--page-margin-500);
   picture,
   img,
   video,
@@ -26,11 +26,14 @@
 .image-container{
   display: flex;
   justify-content: center;
+ 
 }
 
 .homepage-picture{
   margin: 0 10px 10px 10px;
   border: 5px solid var(--colour-secondary);
   border-radius: 25px;
+  max-width: 341px;
+  max-height: 341px;
 }
   
